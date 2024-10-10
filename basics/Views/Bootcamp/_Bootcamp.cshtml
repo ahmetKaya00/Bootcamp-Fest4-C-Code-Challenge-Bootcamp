@@ -6,7 +6,9 @@
         </div>
         <div class="col-md-8">
             <div class="card-body">
-                <h1 class="card-title">@Model.Title</h1>
+                <a asp-controller="Bootcamp" asp-action="Details" asp-route-id="@Model.Id">
+                     <h1 class="card-title">@Model.Title</h1>
+                </a>
                 <p class="card-text">@Model.Description</p>
             </div>
         </div>

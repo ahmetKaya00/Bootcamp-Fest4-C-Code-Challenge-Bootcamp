@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Kaya3\Documents\GitHub\Bootcamp-Fest4-C-Code-Challenge-Bootcamp\basics
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/basics/Views/Bootcamp/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdGNhbXBcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/basics/Views/Bootcamp/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9vdGNhbXBcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

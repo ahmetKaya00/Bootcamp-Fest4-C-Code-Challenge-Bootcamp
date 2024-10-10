@@ -28,3 +28,4 @@ C:\Users\Kaya3\Documents\GitHub\Bootcamp-Fest4-C-Code-Challenge-Bootcamp\basics\
 C:\Users\Kaya3\Documents\GitHub\Bootcamp-Fest4-C-Code-Challenge-Bootcamp\basics\obj\Debug\net7.0\basics.pdb
 C:\Users\Kaya3\Documents\GitHub\Bootcamp-Fest4-C-Code-Challenge-Bootcamp\basics\obj\Debug\net7.0\basics.genruntimeconfig.cache
 C:\Users\Kaya3\Documents\GitHub\Bootcamp-Fest4-C-Code-Challenge-Bootcamp\basics\obj\Debug\net7.0\ref\basics.dll
+C:\Users\Kaya3\Documents\GitHub\Bootcamp-Fest4-C-Code-Challenge-Bootcamp\basics\obj\Debug\net7.0\basics.sourcelink.json
