@@ -41,8 +41,8 @@
                 <td>@prd.Name</td>
                 <td>@prd.Pages</td>
                 <td>
-                    <a href="" class="btn btn-warning btn-sm">Edit</a>
-                    <a href="" class="btn btn-danger btn-sm">Delete</a>
+                    <a asp-controller="Home" asp-action="Edit" asp-route-id="@prd.ProductId" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-controller="Home" asp-action="Delete" asp-route-id="@prd.ProductId" class="btn btn-danger btn-sm">Delete</a>
                 </td>
             </tr>
         }

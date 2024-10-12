@@ -18,6 +18,25 @@ namespace ReadApp.Models{
         public static void CreateProduct(Product entity){
             _products.Add(entity);
         }
+
+        public static void EditProduct(Product updateProduct){
+            var entity = _products.FirstOrDefault(p=>p.ProductId == updateProduct.ProductId);
+            if(entity != null){
+                entity.Name = updateProduct.Name;
+                entity.Pages = updateProduct.Pages;
+                entity.Image = updateProduct.Image;
+                entity.CategoryId = updateProduct.CategoryId;
+                entity.IsActive = updateProduct.IsActive;
+            }
+        }
+
+        public static void DeleteProduct(Product entity){
+            var prdEntity = _products.FirstOrDefault(p=>p.ProductId == entity.ProductId);
+
+            if(prdEntity != null){
+                _products.Remove(prdEntity);
+            }
+        }
         public static List<Category> Categories{get{return _categories;}}
     }
 }
