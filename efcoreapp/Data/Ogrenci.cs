@@ -6,9 +6,15 @@ namespace efcoreapp.Data{
 
         [Key]
         public int OgrenciId {get;set;}
+
+        [Display(Name = "Öğrenci Adı")]
         public string? OgrenciAd {get;set;}
         public string? OgrenciSoyad {get;set;}
+
+        public string AdSoyad{get{return this.OgrenciAd + " " + this.OgrenciSoyad;}}
         public string? Eposta {get;set;}
         public string? Telefon {get;set;}
+
+        public ICollection<BootcampKayit> KursKayitlari {get;set;} = new List<BootcampKayit>();
     }
 }

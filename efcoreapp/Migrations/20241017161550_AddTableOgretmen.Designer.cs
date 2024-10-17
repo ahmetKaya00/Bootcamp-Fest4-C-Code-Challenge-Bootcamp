@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using efcoreapp.Data;
 
@@ -10,9 +11,11 @@ using efcoreapp.Data;
 namespace efcoreapp.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20241017161550_AddTableOgretmen")]
+    partial class AddTableOgretmen
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.8");
@@ -26,7 +29,7 @@ namespace efcoreapp.Migrations
                     b.Property<string>("Baslik")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("OgretmenId")
+                    b.Property<int?>("OgretmenId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("BootcampId");
@@ -113,9 +116,7 @@ namespace efcoreapp.Migrations
                 {
                     b.HasOne("efcoreapp.Data.Ogretmen", "Ogretmen")
                         .WithMany("Bootcamps")
-                        .HasForeignKey("OgretmenId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("OgretmenId");
 
                     b.Navigation("Ogretmen");
                 });

@@ -1,0 +1,11 @@
+@model Bootcamp
+
+<p>
+    <b>@Model.Baslik </b> adlı bootcampi silmek istediğinize emin misiniz ?
+
+    <form asp-action="delete" method="post">
+        <input type="hidden" name="id" value="@Model.BootcampId">
+        <button type="submit" class="btn btn-danger">Evet</button>
+        <a asp-action="index" class="btn btn-success">Hayır</a>
+    </form>
+</p>

@@ -9,5 +9,6 @@ namespace efcoreapp.Data{
         public DbSet<Bootcamp> Bootcamps => Set<Bootcamp>();
         public DbSet<Ogrenci> Ogrenciler => Set<Ogrenci>();
         public DbSet<BootcampKayit> KursKayitlari => Set<BootcampKayit>();
+        public DbSet<Ogretmen> Ogretmenler => Set<Ogretmen>();
     }
 }

@@ -1,0 +1,33 @@
+@model BootcampViewModel
+
+<h2>Bootcamp Güncelle</h2>
+<hr>
+<div class="row">
+    <div class="col-8">
+        <form asp-controller="Bootcamp" asp-action="Edit" method="post">
+            <input type="hidden" asp-for="BootcampId">
+            <div class="mb-3">
+                <label asp-for="Baslik" class="form-label"></label>
+                <input asp-for="Baslik" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="OgretmenId" class="form-label">Öğretmen</label>
+                <select asp-for="OgretmenId" asp-items="ViewBag.Ogretmenler" class="form-select">
+                    <option value="">Seçiniz</option>
+                </select>
+            </div>
+            <button class="btn btn-secondary" type="submit">Kaydet</button>
+        </form>
+
+    </div>
+    <div class="col-4">
+        <h4>Kayıtlı Öğrenciler</h4>
+        <hr>
+        <ul>
+            @foreach (var item in @Model.KursKayitlari)
+            {
+                <li>@item.Ogrenci.AdSoyad</li>
+            }
+        </ul>
+    </div>
+</div>
