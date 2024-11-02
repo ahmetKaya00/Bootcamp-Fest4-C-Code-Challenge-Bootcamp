@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Kaya3\Documents\GitHub\Bootcamp-Fest4-C-Code-Challenge-Bootcamp\IdentityApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,12 +38,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Roles/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/Users/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Kaya3/Documents/GitHub/Bootcamp-Fest4-C-Code-Challenge-Bootcamp/IdentityApp/Views/_ViewImports.cshtml]
